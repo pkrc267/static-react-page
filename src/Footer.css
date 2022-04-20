@@ -27,9 +27,10 @@
     margin-left: auto;
     margin-right: auto;
     color: rgb(17, 17, 17);
-    max-width: 65ch;
+    max-width: 70ch;
     font-size: 1rem;
-    line-height: 1.75
+    line-height: 1.75;
+    overflow-wrap: break-word;
 }
 
 ;

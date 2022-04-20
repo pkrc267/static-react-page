@@ -1,6 +1,7 @@
-- [ ] Header section
-    - [ ] Logo image
-    - Header.css
-- [ ] Body section
-    - simple styling
+- [x] Header section
+    - [x] Logo image
+    - [ ] Header.css
+- [x] Body section
+    - [x] styling
+    - [ ] Body.css
 - [x] Footer section

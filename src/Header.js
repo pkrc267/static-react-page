@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from './blog_logo.png';
 
 
 class Header extends React.Component {
@@ -10,15 +10,29 @@ class Header extends React.Component {
     render() {
         const headerText = "Header";
         const headerContainer = {
-            backgroundColor: "#f9edea",
+            backgroundColor: "#FBEFEB",
             display: 'flex',
-            height: '100px',
+            height: '10rem',
             placeContent: 'center',
             placeItems: 'center'
         };
+        const image = {
+            height: '100%',
+            width: '100%',
+            maxHeight: '10rem'
+        };
+        const imageContainer = {
+            height: 'fit-content',
+            width: 'auto',
+            margin: 'auto'
+        };
         return (
             <div style={headerContainer}>
-                <h1>{headerText}</h1>
+                {
+                    <h1 style={imageContainer}>
+                        <img src={logo} style={image}/>
+                    </h1>
+                }
             </div>
         );
     }
